@@ -1,5 +1,5 @@
-let itemPrice = 50;
-let walletMoney = 35;
+let itemPrice = 35;
+let walletMoney = 50;
 let totalFriends = 60;
 let myAge = 30;
 let firstName = "Harman";
@@ -11,7 +11,7 @@ let middleName = "Mann";
 console.log("Item price is: $"+itemPrice);
 console.log("Total money in wallet is: $"+walletMoney);
 
-console.log("Total money left in wallet after purchase is: $"+(itemPrice - walletMoney));
+console.log("Total money left in wallet after purchase is: $"+(walletMoney - itemPrice));
 
 /* Number of friends made each year based on age and number of friends variable */
 
@@ -22,3 +22,4 @@ console.log("Friends made each year is : ", totalFriends / myAge);
 /*Full name based on first name, middle initial, and last name */
 
 console.log("Full Name  : ", firstName +' ' + middleName + ' ' + lastName);
+console.log("test");
